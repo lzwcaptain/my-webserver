@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/home/Desktop/develop/my-webserver/main.cpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+unistd.h
+-
+netinet/in.h
+-
+fcntl.h
+-
+errno.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+sys/epoll.h
+-
+arpa/inet.h
+-
+
